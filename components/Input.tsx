@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 function Input() {
-  return <div className="text-center">Input</div>;
+  return <div className='text-center'>Input</div>
 }
 
-export default Input;
+export default Input

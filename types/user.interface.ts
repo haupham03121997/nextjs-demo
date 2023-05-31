@@ -1,20 +1,20 @@
 export interface LoginParams {
-  username: string;
-  password: string;
+  username: string
+  password: string
 }
 
 export interface SignupParams extends LoginParams {
-  fullName: string;
-  nickName: string;
-  phone: string;
-  address: string;
+  fullName: string
+  nickName: string
+  phone: string
+  address: string
 }
 
 export interface CurrentUser {
-  fullName: string;
-  username: string;
-  nickName: string;
-  createdAt: string;
-  updatedAt: string;
-  address: string;
+  fullName: string
+  username: string
+  nickName: string
+  createdAt: string
+  updatedAt: string
+  address: string
 }

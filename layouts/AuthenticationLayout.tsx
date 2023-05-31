@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
 interface Props {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 /**
@@ -10,7 +10,7 @@ interface Props {
  * @returns  JSX.Element
  */
 const AuthenticationLayout: FC<Props> = ({ children }): JSX.Element => {
-  return <div>{children}</div>;
-};
+  return <div>{children}</div>
+}
 
-export default AuthenticationLayout;
+export default AuthenticationLayout

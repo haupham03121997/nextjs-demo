@@ -1,9 +1,9 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import React, { FC } from "react";
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import React, { FC } from 'react'
 
 interface Props {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const MainLayout: FC<Props> = ({ children }): JSX.Element => {
@@ -13,7 +13,7 @@ const MainLayout: FC<Props> = ({ children }): JSX.Element => {
       {children}
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default MainLayout;
+export default MainLayout

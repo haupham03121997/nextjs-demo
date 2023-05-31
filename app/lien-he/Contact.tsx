@@ -1,8 +1,8 @@
-import React from "react";
-import ContactContainer from "@/containers/Contact";
+import React from 'react'
+import ContactContainer from '@/containers/Contact'
 
 const Contact = (): JSX.Element => {
-  return <ContactContainer />;
-};
+  return <ContactContainer />
+}
 
-export default Contact;
+export default Contact

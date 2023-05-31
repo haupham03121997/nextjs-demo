@@ -1,7 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import Input from "@/components/Input";
+import React from 'react'
+import Input from '@/components/Input'
 
 export default function Home() {
-  return <Input />;
+  return <Input />
 }
